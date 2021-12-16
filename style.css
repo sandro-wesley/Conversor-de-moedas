@@ -1,0 +1,64 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.titulo{
+    font-size: 3rem;
+}
+.sub_titulo{
+    font-size: 26px;
+}
+body{
+    background-image: url(/Img/moeda.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-attachment: fixed;
+  min-height: 100%;
+
+}
+.conteiner{
+    margin: 0;
+    margin-top: 5%;
+    padding: 50px;
+    text-align: center;
+   height: 100%;
+  
+  color: rgb(248, 248, 248);
+}
+
+#back{
+    background-color: #00000094;
+    padding: 10px 1px;
+}
+#back_h2{
+    background-color: #00000094;
+    font-size: 22px;
+}
+#valor{
+    width: 15rem;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 2.5px solid;
+
+    font-size: 20px;
+    margin-top: 35px;
+
+
+}
+
+#converter{
+    margin-top: 25px;
+    padding: 20px 25px;
+
+    border-radius: 15%;
+    border: 2px solid #50f3ff;
+
+    font-size: 19px;
+    background-color: #fff;
+}
+#converter:hover{
+    background-color: #50f3ff;
+    transition: .9s;
+    
+}
